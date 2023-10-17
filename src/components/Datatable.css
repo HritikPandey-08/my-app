@@ -1,0 +1,20 @@
+/* DataTable.css */
+.hoverable-cell {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .resource-alias-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .hoverable-cell:hover .resource-alias-tooltip {
+    display: block;
+  }
